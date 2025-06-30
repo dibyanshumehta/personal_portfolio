@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <header>
+        <h2 class="name">Dibyanshu Mehta</h2>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html"><span style="color: black;">Projects</span></a>
+            <a href="contact.html">Contacts</a>
+        </nav>
+        <div class="hamburger" id="hamburger">
+      <ion-icon name="menu-outline"></ion-icon>
+    </div>
+    </header>
+    
+    <section class="projects-section">
+    <h1 class="section-title">My Projects</h1>
+    <div class="projects-container">
+
+      <div class="project-card">
+        <h3>Personal Resume</h3>
+        <p>A responsive resume using HTML, CSS, JS.</p>
+        <button class="details-btn" data-target="modal1">In Details</button>
+      </div>
+
+      <div class="project-card">
+        <h3>Basic Calculator</h3>
+        <p>A responsive calculator website using HTML, CSS, JS.</p>
+        <button class="details-btn" data-target="modal2">In Details</button>
+      </div>
+
+      <div class="project-card">
+        <h3>Chat Application</h3>
+        <p>A real-time chatting app with broadcast feature using HTML, CSS, JS.</p>
+        <button class="details-btn" data-target="modal3">In Details</button>
+      </div>
+
+      <div class="project-card">
+        <h3>Sports Buddy</h3>
+        <p>A sports portal using Firebase for user login, application, and admin access.</p>
+        <button class="details-btn" data-target="modal4">In Details</button>
+      </div>
+
+      <div class="project-card">
+        <h3>Any Times Fitness Gym</h3>
+        <p>Fitness site for workout/diet tracking and fee system with Firebase backend.</p>
+        <button class="details-btn" data-target="modal5">In Details</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Modals -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>Personal Resume</h2>
+      <video controls>
+        <source src="resume.mp4" type="video/mp4" />
+      </video>
+      <p>This is a responsive resume built using HTML, CSS, and JavaScript for front-end presentation.</p>
+    </div>
+  </div>
+
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>Calculator</h2>
+      <video controls>
+        <source src="calculator.mp4" type="video/mp4" />
+      </video>
+      <p>A calculator app performing basic operations with responsive UI built using vanilla JS.</p>
+    </div>
+  </div>
+
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>Chat Application</h2>
+      <video controls>
+        <source src="chatting.mp4" type="video/mp4" />
+      </video>
+      <p>Real-time messaging app built with Firebase and JS for broadcast channel-based chatting.</p>
+    </div>
+  </div>
+
+  <div id="modal4" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>Sports Buddy</h2>
+      <video controls>
+        <source src="sports.mp4" type="video/mp4" />
+      </video>
+      <p>Allows users to register for sports events, submit forms, and admins to manage submissions.</p>
+    </div>
+  </div>
+
+  <div id="modal5" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>Any Times Fitness Gym</h2>
+      <video controls>
+        <source src="gym.mp4" type="video/mp4" />
+      </video>
+      <p>Complete gym management portal with member login, fee status, diet/workout log, admin panel.</p>
+    </div>
+  </div>
+
+    <script src="work.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
